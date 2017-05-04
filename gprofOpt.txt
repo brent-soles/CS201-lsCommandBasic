@@ -1,0 +1,4 @@
+gprof Report
+Brent Daniels-Soles
+
+For this assignment, I had some trouble getting gprof to work correctly. I compiled the program using the '-pg' option and when running the program using 'gprof ./cls <with args -l -R>' and the result was either faulty or it did not compile right. Some optimization that I could have made for this assignment were to the various struct stat structures. The reason being, is in a couple functions I used a couple different stat structures, just to make sure that I wasn't overwriting any data that I might need. 
